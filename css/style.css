@@ -1,0 +1,342 @@
+/* Color Palletes
+Dark Blue: #383e56
+Light Grey: #758184
+Whitish pale: #f6f6f6;
+Bg/Logo color: #fae3d6
+ */
+/* overall */
+body {
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fae3d6;
+}
+
+h2 {
+  color: #f6f6f6;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  padding-top: 180px;
+}
+
+p {
+  color: #383e56;
+}
+
+/* Fixed Images */
+.container-image-1, .container-image-2, .container-image-3, .container-image-4, .container-image-5 {
+  position: relative;
+  opacity: 0.5;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no repeat;
+  background-attachment: fixed;
+}
+
+.container-image-1 {
+  background-image: url(../images/Mocha-Brownie-Alone.jpg);
+  width: 100%;
+  min-height: 650px;
+}
+
+.container-image-2 {
+  background-image: url(../images/Mocha-Brownie-with-Coffee-press.jpg);
+  width: 100%;
+  min-height: 400px;
+}
+
+.container-image-3 {
+  background-image: url(../images/Almond-brownie-with-latte.jpg);
+  width: 100%;
+  min-height: 400px;
+}
+
+.container-image-4 {
+  background-image: url(../images/Digestive-Brownie-Plain.jpg);
+  width: 100%;
+  min-height: 400px;
+}
+
+.container-image-5 {
+  background-image: url(../images/Mocha-Brownie-Alone.jpg);
+  width: 100%;
+  min-height: 400px;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 1rem;
+  background-color: #758184;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+/* Tittle Section */
+.logo {
+  width: 30%;
+  padding-top: 50px;
+}
+
+.title-sub {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #f6f6f6;
+  padding-top: 15px;
+  padding-bottom: 10px
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* section 1 About Us */
+#intro {
+  padding: 3% 10%;
+}
+
+.mvonne-img {
+  width: 30%;
+  margin: 4% 0;
+}
+
+.h2-special {
+  color: #758184;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 1% 0;
+  padding-top: 0;
+}
+
+.about-sub {
+  padding: 0 100px;
+  margin: 0;
+}
+
+/* section 1 Menu */
+#menu {
+  padding: 3% 10%;
+}
+
+.menu-align {
+  padding: 0 2%;
+}
+
+.menu-img {
+  width: 50%;
+  border-radius: 80%;
+  margin: 4% 0;
+}
+
+.menu-item {
+  color: #383e56;
+  margin: 4% 0;
+  padding: 0 10%;
+}
+
+.menu-sub {
+  margin: 4% 0;
+}
+
+/* Section 2 Pricing */
+#pricing {
+  padding: 3% 10%;
+  color: #383e56;
+}
+
+.price-list {
+  width: 100%;
+  margin: 100px auto 50px;
+}
+
+.fulltray-img {
+  width: 100%;
+}
+
+.halftray-img {
+  width: 100%;
+}
+
+.pieces-img {
+  width: 100%;
+}
+
+.price-description {
+  text-align: left;
+  width: 100%;
+  margin: 100px auto 50px;
+  padding: 0;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.price-disclaimer {
+  color: #758184;
+  font-weight: 100;
+}
+
+.order-now {
+  margin: 2% 0;
+}
+
+/* Section 3 Review Carousel */
+#reviews {
+  text-align: center;
+}
+
+.carousel-inner {
+  margin-top: 30px;
+}
+
+.review-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #383e56;
+  padding: 2% 0;
+}
+
+.reviewer {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  color: #758184;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+  height: 400px;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Section 4 contact me */
+#contact {
+  color: #383e56;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 50px auto 50px;
+}
+
+.contact-sub {
+  width: 100%;
+  margin: 40px auto;
+  font-weight: 300;
+}
+
+.contact-msg {
+  margin: 50px auto 60px;
+  font-weight: 300;
+}
+
+/* section 5 closing div */
+.bottom-container {
+  background-color: #758184;
+  opacity: 0.8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-link {
+  margin: 0 20px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #f6f6f6;
+}
+
+.footer-link:hover {
+  color: #383e56;
+}
+
+.copyright-text {
+  color: #f6f6f6;
+  font-size: 0.8rem;
+  padding-top: 20px;
+}
+
+/* media query */
+@media (max-width: 991px) {
+
+  /* container images */
+  .container-image-1, .container-image-2, .container-image-3, .container-image-4, .container-image-5 {
+    background-attachment: scroll;
+  }
+
+  .container-image-1 {
+    background-image: url(../images/Mocha-Brownie-Alone.jpg);
+    width: 100%;
+    min-height: 300px;
+  }
+
+  .container-image-2 {
+    background-image: url(../images/Mocha-Brownie-with-Coffee-press.jpg);
+    width: 100%;
+    min-height: 400px;
+  }
+
+  .container-image-3 {
+    background-image: url(../images/Almond-brownie-with-latte.jpg);
+    width: 100%;
+    min-height: 400px;
+  }
+
+  .container-image-4 {
+    background-image: url(../images/Digestive-Brownie-Plain.jpg);
+    width: 100%;
+    min-height: 400px;
+  }
+
+  .container-image-5 {
+    background-image: url(../images/Mocha-Brownie-Alone.jpg);
+    width: 100%;
+    min-height: 300px;
+  }
+
+/* title */
+
+h2 {
+  font-size: 1.5rem;
+}
+
+
+
+
+  /* pricing */
+  .fulltray-img {
+    width: 50%;
+  }
+
+  .halftray-img {
+    width: 50%;
+  }
+
+  .pieces-img {
+    width: 50%;
+  }
+
+  .price-description {
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+  }
+}
